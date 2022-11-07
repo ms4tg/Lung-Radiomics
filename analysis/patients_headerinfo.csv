@@ -1,0 +1,3 @@
+Timestep,Manufacturer,ManufacturerModelName,SliceThickness,KVP,DataCollectionDiameter,FilterType,FocalSpots,ConvolutionKernel,ExposureTime,XRayTubeCurrent,Exposure
+SWPre,SIEMENS,Sensation 40,3,120,500,0,1.2,B31f,500,565,376
+SWPreN1,SIEMENS,Sensation 40,3,120,500,0,1.2,B31f,500,491,327

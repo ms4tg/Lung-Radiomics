@@ -1,0 +1,396 @@
+Dataset.file_meta -------------------------------
+(0002, 0000) File Meta Information Group Length  UL: 216
+(0002, 0001) File Meta Information Version       OB: b'\x00\x01'
+(0002, 0002) Media Storage SOP Class UID         UI: CT Image Storage
+(0002, 0003) Media Storage SOP Instance UID      UI: 1.3.12.2.1107.5.1.4.57184.30000011032313531646800002249
+(0002, 0010) Transfer Syntax UID                 UI: Explicit VR Little Endian
+(0002, 0012) Implementation Class UID            UI: 1.2.276.0.7230010.3.0.3.6.0
+(0002, 0013) Implementation Version Name         SH: 'OFFIS_DCMTK_360'
+(0002, 0016) Source Application Entity Title     AE: 'uvapaFIR'
+-------------------------------------------------
+(0008, 0005) Specific Character Set              CS: 'ISO_IR 100'
+(0008, 0008) Image Type                          CS: ['ORIGINAL', 'PRIMARY', 'AXIAL', 'CT_SOM5 SPI']
+(0008, 0016) SOP Class UID                       UI: CT Image Storage
+(0008, 0018) SOP Instance UID                    UI: 1.3.12.2.1107.5.1.4.57184.30000011032313531646800002249
+(0008, 0020) Study Date                          DA: '20110323'
+(0008, 0021) Series Date                         DA: '20110323'
+(0008, 0022) Acquisition Date                    DA: '20110323'
+(0008, 0023) Content Date                        DA: '20110323'
+(0008, 0030) Study Time                          TM: '145313'
+(0008, 0031) Series Time                         TM: '150115'
+(0008, 0032) Acquisition Time                    TM: '145943.151208'
+(0008, 0033) Content Time                        TM: '145943'
+(0008, 0050) Accession Number                    SH: '10041972'
+(0008, 0060) Modality                            CS: 'CT'
+(0008, 0061) Modalities in Study                 CS: 'CT'
+
+(0008, 0070) Manufacturer                        LO: 'SIEMENS'
+
+(0008, 0090) Referring Physician's Name          PN: 'Physician^Anonymized'
+(0008, 1030) Study Description                   LO: 'OUTSIDE STUDY NONREPORTABLE AMC -CT Chest Thorax w  Contrast'
+(0008, 1032)  Procedure Code Sequence  1 item(s) ----
+   (0008, 0100) Code Value                          SH: 'CT#CHWC'
+   (0008, 0102) Coding Scheme Designator            SH: 'GEIIS'
+   (0008, 0103) Coding Scheme Version               SH: '0'
+   (0008, 0104) Code Meaning                        LO: 'CT Chest Thorax w  Contrast'
+   ---------
+(0008, 103e) Series Description                  LO: 'PreContrast_CT'
+(0008, 1048) Physician(s) of Record              PN: 'Physician^Anonymized'
+
+(0008, 1090) Manufacturer's Model Name           LO: 'Sensation 40'
+
+(0008, 1111)  Referenced Performed Procedure Step Sequence  1 item(s) ----
+   (0008, 1150) Referenced SOP Class UID            UI: Modality Performed Procedure Step SOP Class
+   (0008, 1155) Referenced SOP Instance UID         UI: 1.3.12.2.1107.5.1.4.57184.30000011032313471903100000008
+   ---------
+(0008, 1140)  Referenced Image Sequence  1 item(s) ----
+   (0008, 1150) Referenced SOP Class UID            UI: CT Image Storage
+   (0008, 1155) Referenced SOP Instance UID         UI: 1.3.12.2.1107.5.1.4.57184.30000011032306191521800000740
+   ---------
+(0008, 2112)  Source Image Sequence  1 item(s) ----
+   (0008, 1150) Referenced SOP Class UID            UI: 1.3.12.2.1107.5.9.1
+   (0008, 1155) Referenced SOP Instance UID         UI: 1.3.12.2.1107.5.1.4.57184.30000011032306191521800000743
+   ---------
+(0010, 0010) Patient's Name                      PN: 'Patient^Anonymized'
+(0010, 0020) Patient ID                          LO: 'ZynGVFui41E='
+(0010, 0030) Patient's Birth Date                DA: '20211104'
+(0010, 0040) Patient's Sex                       CS: 'O'
+(0018, 0015) Body Part Examined                  CS: 'CHEST'
+
+(0018, 0050) Slice Thickness                     DS: '3.0'
+
+(0018, 0060) KVP                                 DS: '120.0'
+
+(0018, 0090) Data Collection Diameter            DS: '500.0'
+
+(0018, 1020) Software Versions                   LO: 'syngo CT 2007S'
+(0018, 1100) Reconstruction Diameter             DS: '451.0'
+(0018, 1110) Distance Source to Detector         DS: '1040.0'
+(0018, 1111) Distance Source to Patient          DS: '570.0'
+(0018, 1120) Gantry/Detector Tilt                DS: '0.0'
+(0018, 1130) Table Height                        DS: '160.0'
+(0018, 1140) Rotation Direction                  CS: 'CW'
+
+(0018, 1150) Exposure Time                       IS: '500'
+
+(0018, 1151) X-Ray Tube Current                  IS: '565'
+
+(0018, 1152) Exposure                            IS: '376'
+
+(0018, 1160) Filter Type                         SH: '0'
+(0018, 1170) Generator Power                     IS: '51'
+
+(0018, 1190) Focal Spot(s)                       DS: '1.2'
+(0018, 1200) Date of Last Calibration            DA: '20110323'
+(0018, 1201) Time of Last Calibration            TM: '012312.000000'
+
+(0018, 1210) Convolution Kernel                  SH: 'B31f'
+
+(0018, 5100) Patient Position                    CS: 'HFS'
+(0019, 0010) Private Creator                     LO: 'SIEMENS CT VA0  COAD'
+(0019, 10b0) [Feed per Rotation]                 DS: '9.0'
+(0020, 000d) Study Instance UID                  UI: 1.2.840.113619.2.182.12076797980.1300903136.470220
+(0020, 000e) Series Instance UID                 UI: 1.3.12.2.1107.5.1.4.57184.30000011032313531646800002248
+(0020, 0010) Study ID                            SH: 'CT1103230051'
+(0020, 0011) Series Number                       IS: '3'
+(0020, 0012) Acquisition Number                  IS: '2'
+(0020, 0013) Instance Number                     IS: '1'
+(0020, 0032) Image Position (Patient)            DS: [-223.0595703125, -385.0595703125, 129]
+(0020, 0037) Image Orientation (Patient)         DS: [1, 0, 0, 0, 1, 0]
+(0020, 0052) Frame of Reference UID              UI: 1.3.12.2.1107.5.1.4.57184.30000011032306191521800000738
+(0020, 1040) Position Reference Indicator        LO: ''
+(0020, 1041) Slice Location                      DS: '129.0'
+(0020, 1208) Number of Study Related Instances   IS: '422'
+(0020, 4000) Image Comments                      LT: ''
+(0021, 0010) Private Creator                     LO: 'SIEMENS MED'
+(0021, 1011) [Target]                            DS: [2, 0]
+(0028, 0002) Samples per Pixel                   US: 1
+(0028, 0004) Photometric Interpretation          CS: 'MONOCHROME2'
+(0028, 0010) Rows                                US: 512
+(0028, 0011) Columns                             US: 512
+(0028, 0030) Pixel Spacing                       DS: [0.880859375, 0.880859375]
+(0028, 0100) Bits Allocated                      US: 16
+(0028, 0101) Bits Stored                         US: 12
+(0028, 0102) High Bit                            US: 11
+(0028, 0103) Pixel Representation                US: 0
+(0028, 0106) Smallest Image Pixel Value          US: 0
+(0028, 0107) Largest Image Pixel Value           US: 4095
+(0028, 1050) Window Center                       DS: [40, -600]
+(0028, 1051) Window Width                        DS: [400, 1200]
+(0028, 1052) Rescale Intercept                   DS: '-1024.0'
+(0028, 1053) Rescale Slope                       DS: '1.0'
+(0028, 1055) Window Center & Width Explanation   LO: ['WINDOW1', 'WINDOW2']
+(0029, 0010) Private Creator                     LO: 'SIEMENS CSA HEADER'
+(0029, 0011) Private Creator                     LO: 'SIEMENS MEDCOM HEADER'
+(0029, 1008) [CSA Image Header Type]             CS: 'SOM 5'
+(0029, 1009) [CSA Image Header Version]          LO: 'VA10A 971201'
+(0029, 1010) [CSA Image Header Info]             OB: Array of 646 elements
+(0029, 1140)  [Application Header Sequence]  1 item(s) ----
+   (0029, 0010) Private Creator                     LO: 'SIEMENS MEDCOM HEADER'
+   (0029, 1041) [Application Header Type]           CS: 'SOM 5 TPOS'
+   (0029, 1042) [Application Header ID]             LO: 'SOM 5 NULLPOSITION'
+   (0029, 1043) [Application Header Version]        LO: 'VB10A 20030626'
+   (0029, 1044) [Application Header Info]           OB: b'-000009090\x00A'
+   ---------
+(0040, 0244) Performed Procedure Step Start Date DA: '20110323'
+(0040, 0245) Performed Procedure Step Start Time TM: '145313.578000'
+(0040, 1008) Confidentiality Code                LO: 'N'
+(0040, 2017) Filler Order Number / Imaging Servi LO: 'CT1103230051'
+(07a1, 0010) Private Creator                     LO: 'ELSCINT1'
+(07a1, 1002) [number of images in series]        UL: 124
+(07a1, 102a) [Tamar Study Status]                CS: 'NONREPORTABLE'
+(07a1, 1040) [Tamar Study Body Part]             CS: 'CHEST'
+(07a1, 1042) Private tag data                    SH: 'NOT ASSIGNED'
+(07a1, 1043) [Unknown]                           IS: '3'
+(07a1, 1050) [Tamar Site Id]                     US: 700
+(07a1, 1058) Private tag data                    CS: 'Y'
+(07a1, 105f) Private tag data                    CS: 'N'
+(07a1, 1085) [Tamar Translate Flags]             UL: 3
+(07a1, 1088) Private tag data                    CS: 'N'
+(07a1, 1098) Private tag data                    CS: 'N'
+(07a3, 0010) Private Creator                     LO: 'ELSCINT1'
+(07a3, 1001) [Tamar Exe Software Version]        LO: '10.1.2'
+(07a3, 1003) [Tamar Study Has Sticky Note]       CS: 'N'
+(07a3, 1034) [Tamar Study Age]                   SH: '22402'
+(07a3, 1055) [Unknown]                           SH: 'N'
+(07a3, 105c) Private tag data                    ST: '0'
+(07a3, 108c) Private tag data                    CS: 'N'
+(07a3, 108f) Private tag data                    CS: 'N'
+(07a3, 1099) [Unknown]                           CS: 'N'
+(07a3, 109c) [Unknown]                           CS: 'N'
+(07a3, 10b9) Private tag data                    CS: 'N'
+(07a3, 10bb) Private tag data                    CS: 'N'
+(07a3, 10ce)  Private tag data  1 item(s) ----
+   (0008, 2111) Derivation Description              ST: 'Lossless JPEG compression, selection value 1, point transform 0, compression ratio 2.09086'
+   (0028, 0002) Samples per Pixel                   US: 1
+   (0028, 0004) Photometric Interpretation          CS: 'MONOCHROME2'
+   (0028, 0010) Rows                                US: 128
+   (0028, 0011) Columns                             US: 128
+   (0028, 0100) Bits Allocated                      US: 8
+   (0028, 0101) Bits Stored                         US: 8
+   (0028, 0102) High Bit                            US: 7
+   (0028, 0103) Pixel Representation                US: 0
+   (07a1, 0010) Private Creator                     LO: 'ELSCINT1'
+   (7fe0, 0010) Pixel Data                          OB: Array of 16384 elements
+   ---------
+(07a5, 0010) Private Creator                     LO: 'ELSCINT1'
+(07a5, 1010) Private tag data                    UL: 1
+(07a5, 1056) Private tag data                    CS: 'Y'
+(07a5, 1072) Private tag data                    DT: '20110406130113.000000'
+(07a5, 10ae) Private tag data                    IS: '0'
+(07a5, 10c8) Private tag data                    CS: 'Y'
+(07a5, 10dc) Private tag data                    UL: 0
+(07a5, 10de) Private tag data                    LO: 'N/A'
+(07a5, 10e8) Private tag data                    IS: '0'
+(0903, 0010) Private Creator                     LO: 'GEIIS PACS'
+(0903, 1010) [Reject Image Flag]                 US: 0
+(0903, 1011) [Significant Flag]                  US: 0
+(0903, 1012) [Confidential Flag]                 US: 0
+(0905, 0010) Private Creator                     LO: 'GEIIS'
+(0905, 1030) [Assigning Authority For Patient ID LO: '001R11:20070224:150759123:129133'
+(3109, 0010) Private Creator                     LO: 'Applicare/RadWorks/Version 5.0'
+(3109, 0011) Private Creator                     LO: 'Applicare/RadWorks/Version 6.0/Summary'
+(3109, 1002) [NEW/SEEN Status]                   SH: 'NEW'
+(3109, 1008) [Receive Origin]                    LO: '10.55.225.50'
+(3109, 100a) [Receive Date]                      DA: '20110406'
+(3109, 100b) [Receive Time]                      TM: '120138'
+(3109, 1112) [Receive Origin Description]        ST: 'AHDAS00'
+(7fd1, 0010) Private Creator                     LO: 'GEIIS'
+(7fd1, 1010) [GE IIS Compression ID]             UL: 0
+(7fe0, 0010) Pixel Data                          OW: Array of 524288 elements
+Reading CT from SW/PreN1
+Dataset.file_meta -------------------------------
+(0002, 0000) File Meta Information Group Length  UL: 216
+(0002, 0001) File Meta Information Version       OB: b'\x00\x01'
+(0002, 0002) Media Storage SOP Class UID         UI: CT Image Storage
+(0002, 0003) Media Storage SOP Instance UID      UI: 1.3.12.2.1107.5.1.4.57184.30000011011714095967100002193
+(0002, 0010) Transfer Syntax UID                 UI: Explicit VR Little Endian
+(0002, 0012) Implementation Class UID            UI: 1.2.276.0.7230010.3.0.3.6.0
+(0002, 0013) Implementation Version Name         SH: 'OFFIS_DCMTK_360'
+(0002, 0016) Source Application Entity Title     AE: 'uvapaFIR'
+-------------------------------------------------
+(0008, 0005) Specific Character Set              CS: 'ISO_IR 100'
+(0008, 0008) Image Type                          CS: ['ORIGINAL', 'PRIMARY', 'AXIAL', 'CT_SOM5 SPI']
+(0008, 0016) SOP Class UID                       UI: CT Image Storage
+(0008, 0018) SOP Instance UID                    UI: 1.3.12.2.1107.5.1.4.57184.30000011011714095967100002193
+(0008, 0020) Study Date                          DA: '20110117'
+(0008, 0021) Series Date                         DA: '20110117'
+(0008, 0022) Acquisition Date                    DA: '20110117'
+(0008, 0023) Content Date                        DA: '20110117'
+(0008, 0030) Study Time                          TM: '160652'
+(0008, 0031) Series Time                         TM: '161422'
+(0008, 0032) Acquisition Time                    TM: '161311.744113'
+(0008, 0033) Content Time                        TM: '161311'
+(0008, 0050) Accession Number                    SH: '10041970'
+(0008, 0060) Modality                            CS: 'CT'
+(0008, 0061) Modalities in Study                 CS: 'CT'
+(0008, 0070) Manufacturer                        LO: 'SIEMENS'
+(0008, 0090) Referring Physician's Name          PN: 'Physician^Anonymized'
+(0008, 1030) Study Description                   LO: 'OUTSIDE STUDY NONREPORTABLE AMC -CT Chest Thorax w  Contrast'
+(0008, 1032)  Procedure Code Sequence  1 item(s) ----
+   (0008, 0100) Code Value                          SH: 'CT#CHWC'
+   (0008, 0102) Coding Scheme Designator            SH: 'GEIIS'
+   (0008, 0103) Coding Scheme Version               SH: '0'
+   (0008, 0104) Code Meaning                        LO: 'CT Chest Thorax w  Contrast'
+   ---------
+(0008, 103e) Series Description                  LO: 'PreN1'
+(0008, 1048) Physician(s) of Record              PN: 'Physician^Anonymized'
+(0008, 1090) Manufacturer's Model Name           LO: 'Sensation 40'
+(0008, 1111)  Referenced Performed Procedure Step Sequence  1 item(s) ----
+   (0008, 1150) Referenced SOP Class UID            UI: Modality Performed Procedure Step SOP Class
+   (0008, 1155) Referenced SOP Instance UID         UI: 1.3.12.2.1107.5.1.4.57184.30000011011714080265600000004
+   ---------
+(0008, 1140)  Referenced Image Sequence  1 item(s) ----
+   (0008, 1150) Referenced SOP Class UID            UI: CT Image Storage
+   (0008, 1155) Referenced SOP Instance UID         UI: 1.3.12.2.1107.5.1.4.57184.30000011011708330607800001706
+   ---------
+(0008, 2112)  Source Image Sequence  1 item(s) ----
+   (0008, 1150) Referenced SOP Class UID            UI: 1.3.12.2.1107.5.9.1
+   (0008, 1155) Referenced SOP Instance UID         UI: 1.3.12.2.1107.5.1.4.57184.30000011011708330607800001709
+   ---------
+(0008, 9215)  Derivation Code Sequence  1 item(s) ----
+   (0008, 0100) Code Value                          SH: '121327'
+   (0008, 0102) Coding Scheme Designator            SH: 'DCM'
+   (0008, 0104) Code Meaning                        LO: 'Full fidelity image'
+   ---------
+(0010, 0010) Patient's Name                      PN: 'Patient^Anonymized'
+(0010, 0020) Patient ID                          LO: 'ZynGVFui41E='
+(0010, 0030) Patient's Birth Date                DA: '20211104'
+(0010, 0040) Patient's Sex                       CS: 'O'
+(0018, 0015) Body Part Examined                  CS: 'CHEST'
+(0018, 0050) Slice Thickness                     DS: '3.0'
+(0018, 0060) KVP                                 DS: '120.0'
+(0018, 0090) Data Collection Diameter            DS: '500.0'
+(0018, 1020) Software Versions                   LO: 'syngo CT 2007S'
+(0018, 1100) Reconstruction Diameter             DS: '405.0'
+(0018, 1110) Distance Source to Detector         DS: '1040.0'
+(0018, 1111) Distance Source to Patient          DS: '570.0'
+(0018, 1120) Gantry/Detector Tilt                DS: '0.0'
+(0018, 1130) Table Height                        DS: '209.0'
+(0018, 1140) Rotation Direction                  CS: 'CW'
+(0018, 1150) Exposure Time                       IS: '500'
+(0018, 1151) X-Ray Tube Current                  IS: '491'
+(0018, 1152) Exposure                            IS: '327'
+(0018, 1160) Filter Type                         SH: '0'
+(0018, 1170) Generator Power                     IS: '42'
+(0018, 1190) Focal Spot(s)                       DS: '1.2'
+(0018, 1200) Date of Last Calibration            DA: '20110117'
+(0018, 1201) Time of Last Calibration            TM: '033655.000000'
+(0018, 1210) Convolution Kernel                  SH: 'B31f'
+(0018, 5100) Patient Position                    CS: 'HFS'
+(0019, 0010) Private Creator                     LO: 'SIEMENS CT VA0  COAD'
+(0019, 10b0) [Feed per Rotation]                 DS: '9.0'
+(0020, 000d) Study Instance UID                  UI: 1.2.840.113619.2.182.12076797980.1295295250.352505
+(0020, 000e) Series Instance UID                 UI: 1.3.12.2.1107.5.1.4.57184.30000011011714095967100002192
+(0020, 0010) Study ID                            SH: 'CT1101170044'
+(0020, 0011) Series Number                       IS: '3'
+(0020, 0012) Acquisition Number                  IS: '2'
+(0020, 0013) Instance Number                     IS: '1'
+(0020, 0032) Image Position (Patient)            DS: [-190.1044921875, -411.1044921875, -186.5]
+(0020, 0037) Image Orientation (Patient)         DS: [1, 0, 0, 0, 1, 0]
+(0020, 0052) Frame of Reference UID              UI: 1.3.12.2.1107.5.1.4.57184.30000011011708330607800001704
+(0020, 1040) Position Reference Indicator        LO: ''
+(0020, 1041) Slice Location                      DS: '-186.5'
+(0020, 1208) Number of Study Related Instances   IS: '181'
+(0020, 4000) Image Comments                      LT: ''
+(0021, 0010) Private Creator                     LO: 'SIEMENS MED'
+(0021, 1011) [Target]                            DS: [12, 0]
+(0028, 0002) Samples per Pixel                   US: 1
+(0028, 0004) Photometric Interpretation          CS: 'MONOCHROME2'
+(0028, 0010) Rows                                US: 512
+(0028, 0011) Columns                             US: 512
+(0028, 0030) Pixel Spacing                       DS: [0.791015625, 0.791015625]
+(0028, 0100) Bits Allocated                      US: 16
+(0028, 0101) Bits Stored                         US: 12
+(0028, 0102) High Bit                            US: 11
+(0028, 0103) Pixel Representation                US: 0
+(0028, 0106) Smallest Image Pixel Value          US: 0
+(0028, 0107) Largest Image Pixel Value           US: 4095
+(0028, 1050) Window Center                       DS: [40, -600]
+(0028, 1051) Window Width                        DS: [400, 1200]
+(0028, 1052) Rescale Intercept                   DS: '-1024.0'
+(0028, 1053) Rescale Slope                       DS: '1.0'
+(0028, 1055) Window Center & Width Explanation   LO: ['WINDOW1', 'WINDOW2']
+(0029, 0010) Private Creator                     LO: 'SIEMENS CSA HEADER'
+(0029, 0011) Private Creator                     LO: 'SIEMENS MEDCOM HEADER'
+(0029, 1008) [CSA Image Header Type]             CS: 'SOM 5'
+(0029, 1009) [CSA Image Header Version]          LO: 'VA10A 971201'
+(0029, 1010) [CSA Image Header Info]             OB: Array of 646 elements
+(0029, 1140)  [Application Header Sequence]  1 item(s) ----
+   (0029, 0010) Private Creator                     LO: 'SIEMENS MEDCOM HEADER'
+   (0029, 1041) [Application Header Type]           CS: 'SOM 5 TPOS'
+   (0029, 1042) [Application Header ID]             LO: 'SOM 5 NULLPOSITION'
+   (0029, 1043) [Application Header Version]        LO: 'VB10A 20030626'
+   (0029, 1044) [Application Header Info]           OB: b'-000006340\x00A'
+   ---------
+(0040, 0244) Performed Procedure Step Start Date DA: '20110117'
+(0040, 0245) Performed Procedure Step Start Time TM: '160652.921000'
+(0040, 1008) Confidentiality Code                LO: 'N'
+(0040, 2017) Filler Order Number / Imaging Servi LO: 'CT1101170044'
+(07a1, 0010) Private Creator                     LO: 'ELSCINT1'
+(07a1, 1002) [number of images in series]        UL: 110
+(07a1, 102a) [Tamar Study Status]                CS: 'NONREPORTABLE'
+(07a1, 1040) [Tamar Study Body Part]             CS: 'CHEST'
+(07a1, 1042) Private tag data                    SH: 'NOT ASSIGNED'
+(07a1, 1043) [Unknown]                           IS: '3'
+(07a1, 1050) [Tamar Site Id]                     US: 700
+(07a1, 1058) Private tag data                    CS: 'Y'
+(07a1, 105f) Private tag data                    CS: 'N'
+(07a1, 1085) [Tamar Translate Flags]             UL: 3
+(07a1, 1088) Private tag data                    CS: 'N'
+(07a1, 1098) Private tag data                    CS: 'N'
+(07a3, 0010) Private Creator                     LO: 'ELSCINT1'
+(07a3, 1001) [Tamar Exe Software Version]        LO: '10.1.2'
+(07a3, 1003) [Tamar Study Has Sticky Note]       CS: 'N'
+(07a3, 1034) [Tamar Study Age]                   SH: '22334'
+(07a3, 1055) [Unknown]                           SH: 'N'
+(07a3, 105c) Private tag data                    ST: '0'
+(07a3, 108c) Private tag data                    CS: 'N'
+(07a3, 108f) Private tag data                    CS: 'N'
+(07a3, 1099) [Unknown]                           CS: 'N'
+(07a3, 109c) [Unknown]                           CS: 'N'
+(07a3, 10b9) Private tag data                    CS: 'N'
+(07a3, 10bb) Private tag data                    CS: 'N'
+(07a3, 10ce)  Private tag data  1 item(s) ----
+   (0008, 2111) Derivation Description              ST: 'Lossless JPEG compression, selection value 1, point transform 0, compression ratio 1.8776'
+   (0008, 9215)  Derivation Code Sequence  1 item(s) ----
+      (0008, 0100) Code Value                          SH: '121327'
+      (0008, 0102) Coding Scheme Designator            SH: 'DCM'
+      (0008, 0104) Code Meaning                        LO: 'Full fidelity image'
+      ---------
+   (0028, 0002) Samples per Pixel                   US: 1
+   (0028, 0004) Photometric Interpretation          CS: 'MONOCHROME2'
+   (0028, 0010) Rows                                US: 128
+   (0028, 0011) Columns                             US: 128
+   (0028, 0100) Bits Allocated                      US: 8
+   (0028, 0101) Bits Stored                         US: 8
+   (0028, 0102) High Bit                            US: 7
+   (0028, 0103) Pixel Representation                US: 0
+   (07a1, 0010) Private Creator                     LO: 'ELSCINT1'
+   (7fe0, 0010) Pixel Data                          OB: Array of 16384 elements
+   ---------
+(07a5, 0010) Private Creator                     LO: 'ELSCINT1'
+(07a5, 1010) Private tag data                    UL: 1
+(07a5, 1056) Private tag data                    CS: 'Y'
+(07a5, 1072) Private tag data                    DT: '20110406130400.000000'
+(07a5, 10ae) Private tag data                    IS: '0'
+(07a5, 10c8) Private tag data                    CS: 'Y'
+(07a5, 10dc) Private tag data                    UL: 0
+(07a5, 10de) Private tag data                    LO: 'N/A'
+(07a5, 10e8) Private tag data                    IS: '0'
+(0903, 0010) Private Creator                     LO: 'GEIIS PACS'
+(0903, 1010) [Reject Image Flag]                 US: 0
+(0903, 1011) [Significant Flag]                  US: 0
+(0903, 1012) [Confidential Flag]                 US: 0
+(0905, 0010) Private Creator                     LO: 'GEIIS'
+(0905, 1030) [Assigning Authority For Patient ID LO: '001R11:20070224:150759123:129133'
+(3109, 0010) Private Creator                     LO: 'Applicare/RadWorks/Version 5.0'
+(3109, 0011) Private Creator                     LO: 'Applicare/RadWorks/Version 6.0/Summary'
+(3109, 1002) [NEW/SEEN Status]                   SH: 'NEW'
+(3109, 1008) [Receive Origin]                    LO: '10.55.225.50'
+(3109, 100a) [Receive Date]                      DA: '20110406'
+(3109, 100b) [Receive Time]                      TM: '120222'
+(3109, 1112) [Receive Origin Description]        ST: 'AHDAS00'
+(7fd1, 0010) Private Creator                     LO: 'GEIIS'
+(7fd1, 1010) [GE IIS Compression ID]             UL: 0
+(7fe0, 0010) Pixel Data                          OW: Array of 524288 elements
