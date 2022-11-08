@@ -1,5 +1,5 @@
 # Main
-The code I used while worling under Professor Krishni Wijesooriya on radiomics features
+The code I used while working under Professor Krishni Wijesooriya on radiomics features
 
 **Analysis**  
 All the codes are under folder "analysis"
