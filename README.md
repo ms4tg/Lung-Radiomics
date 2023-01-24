@@ -9,3 +9,5 @@ The file structure used to run the code with sample data can be found in folder 
 
 **Output**  
 All the output files from code found in folder "analysis"
+
+patients_headerinfo1.xlsx shows how the batches are divided to use ComBat
